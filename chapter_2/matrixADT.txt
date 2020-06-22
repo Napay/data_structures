@@ -1,0 +1,15 @@
+A matrix is a collection of scalar values arranged in rows and columns
+as a rectangular grid of a fixed size. The elements of the matrix can 
+be accessed by specifying a given row and column index with starting at 0.
+
+- Matrix(nrows, ncols): Creates a new matrix containing nrows and ncols
+with each element initialized to 0.
+- numRows(): Returns the number of rows in the matrix
+- numCols(): Returns the number of columns in the matrix
+- getitem(row, col): Returns the value stored in the given matrix element.
+Both row and col must be within the valid range.
+- setitem(row, col): Sets the matrix element at the given row and col to 
+scalar. The element indices must be within the valid range.
+- scaleBy(scalar): Multiplies each element of the matrix by the given scalar
+value. The matrix is modified by this operation.
+- transpose(): Returns 
